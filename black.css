@@ -1,0 +1,141 @@
+.dark-theme .FirstPart{
+    background: #000000 url("IMG/LOGOBlack.png") center no-repeat;
+}
+
+.light-theme .FirstPart{
+    background: rgba(255, 255, 255, 0.067) url("IMG/LOGOWhite.png") center no-repeat;
+}
+
+.dark-theme a{
+color: white;
+}
+
+.light-theme a{
+color: rgb(0, 0, 0);
+}
+
+.dark-theme .dropbtn{
+color: white;
+}
+    
+.light-theme .dropbtn{
+color: rgb(0, 0, 0);
+}
+
+.light-theme .dropdown-content a:hover {
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+}
+.dark-theme .dropdown-content a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+
+.dark-theme .theme-button{
+color: white;
+background-color: black;
+}
+        
+.light-theme .theme-button{
+color: black;    
+background-color: white;
+}
+
+
+.dark-theme .StoryTitle{
+color: white;
+text-shadow: rgb(0, 140, 255) 0 0 6px;
+}
+        
+.light-theme .StoryTitle{
+text-shadow: rgb(0, 140, 255) 0 0 6px;
+color: rgb(255, 255, 255);
+}
+
+ .StorySubtitle{
+    color: white;
+    text-shadow: rgb(0, 140, 255) 0 0 6px;
+}
+        
+
+.light-theme .Story{
+background: white url("IMG/firstbmwwhite.png") center no-repeat;
+background-size: cover;
+}
+        
+.dark-theme .Story{
+background: #000000 url("IMG/firstbmwblack.jpg") center no-repeat;
+
+}
+
+    
+.light-theme .Works{
+background-color: white;
+border: 1px solid rgb(0, 0, 0);
+
+}
+                
+.dark-theme .Works{
+background-color: #000000;    
+border: 1px solid rgb(255, 255, 255); 
+text-shadow: rgb(0, 140, 255) 0 0 6px;
+color: rgb(255, 255, 255)   
+}
+
+
+.light-theme .AllPhotos{
+background-color: white;
+border: 1px solid rgb(0, 0, 0);
+}
+                    
+.dark-theme .AllPhotos{
+background-color: #000000;  
+border: 1px solid rgb(255, 255, 255); 
+text-shadow: rgb(0, 140, 255) 0 0 6px;
+color: rgb(255, 255, 255)     
+}
+
+
+.light-theme .Map{
+background-color: white;
+border: 1px solid rgb(0, 0, 0);
+}
+                        
+.dark-theme .Map{
+background-color: #000000;  
+border: 1px solid rgb(255, 255, 255);
+text-shadow: rgb(0, 140, 255) 0 0 6px;
+color: rgb(255, 255, 255)
+      
+}
+
+.light-theme .WorkTitle{
+text-shadow: rgb(0, 140, 255) 0 0 6px;
+color: rgb(0, 0, 0);
+}
+    
+.dark-theme .WorkTitle{
+ color: white;
+ text-shadow: rgb(0, 140, 255) 0 0 6px;
+}
+
+.light-theme .XTitle{
+    text-shadow: rgb(0, 140, 255) 0 0 6px;
+    color: rgb(0, 0, 0);
+    }
+        
+.dark-theme .XTitle{
+     color: white;
+     text-shadow: rgb(0, 140, 255) 0 0 6px;
+}
+
+.light-theme .Ttitle{
+        text-shadow: rgb(0, 140, 255) 0 0 6px;
+        color: rgb(0, 0, 0);
+        }
+            
+.dark-theme .Ttitle{
+         color: white;
+         text-shadow: rgb(0, 140, 255) 0 0 6px;
+}    

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="black.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="page light-theme">
+    <div class="FirstPart">
+        <div class="Menu container">
+            <ul>
+                <li class="Link"><a  href="#a">Story about us</a> </li> 
+                <li class="Link"><a  href="#b">Some of our works</a> </li> 
+                <li class="Link"><a  href="#c">BMW X6</a> </li> 
+                <li class="Link"><a  href="#d">Shops</a> </li> 
+                <li class="Link"><label class="switch">
+                  <input type="checkbox" class="theme-button">
+                  <span class="slider round"></span>
+                </label>
+              </li> 
+                <li class="Link"><div class="dropdown">
+                        <button class="dropbtn"><i class="fa fa-bars"></i>  Models</button>
+                        <div class="dropdown-content">
+                          <div class="Models"><a href="#">BMW X</a></div>
+                          <div class="Models"><a href="#">BMW M</a></div>
+                          <div class="Models"><a href="#">BMW Sedans</a></div>
+                          <div class="Models"><a href="#">BMW Electrified</a></div>
+                          <div class="Models"><a href="#">BMW Coupes</a></div>
+                        </div>
+                      </div>
+                </li> 
+              </ul>
+        </div>
+    </div>  
+    <div id="a" class="Story">
+          <div class="StoryTitle">Story About Us</div>
+          <div class="StorySubtitle">Bayerische Flugzeugwerke AG was formed in 1916. This company was renamed to Bayerische Motoren Werke (BMW) in 1922. However the name BMW dates back to 1913, when the original company to use the name was founded by Karl Rapp (initially as Rapp Motorenwerke GmbH). BMW's first product was a straight-six aircraft engine called the BMW IIIa, designed in the spring of 1917 by engineer Max Friz. Following the end of World War I, BMW remained in business by producing motorcycle engines, farm equipment, household items and railway brakes. The company produced its first motorcycle, the BMW R 32 in 1923.
+        </div>  
+      </div>
+  <div id="b" class="Works">
+        <div class="WorkTitle">Some Of Our Works</div>
+        <ul>
+            <li class="Work"><img src="IMG/Work1.png" alt=""></li>
+            <li class="Work"><img src="IMG/Work2.png" alt=""></li>
+            <li class="Work"><img src="IMG/Work3.png" alt=""></li>
+        </ul>
+      </div> 
+    <div id="c" class = "AllPhotos">
+        <div class="XTitle">New Bmw X6</div>
+        <img class="MainPhoto" src="IMG/x2.png" alt="">
+        <div class = "OtherPhoto">
+            <button class = "Photo"><img src="IMG/x1.png" alt=""></button>
+            <button class = "Photo"><img src="IMG/x2.png" alt=""></button>
+            <button class = "Photo"><img src="IMG/x4.png" alt=""></button>
+        </div>
+      </div> 
+      <div id="d" class="Map">
+        <div class="Ttitle">Where You Can Find Us</div>
+
+        <div class="ImageM"><img class="ImageMap" src="IMG/map.png" alt=""></div>
+        <div class="Subs">
+          <button class="SingButton" onclick="document.getElementById('id01').style.display='block'">Subscribe</button>
+            <div id="id01" class="modal">
+              <span  class="close" title="Close Modal"><div class="WorldUp2">Cancel</div></span>
+              <form class="modal-content" method="post">
+                <div class="container1">
+                  <div class="WorldUp">Sign Up</div>
+                <div class="WorldUp">Email</div>
+                <input type="text" placeholder="Enter Email" name="email" class="www#" required>
+          
+                <div class="WorldUp"><label for="psw"><b>Password</b></label></div>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+          
+
+                <div class="clearfix">
+                  <button type="submit" class="SingButton">Sing Up</button>
+                </div>
+              </div>
+            </form>
+          </div> 
+      </div> 
+    </div>
+<script src="BMW.js"></script>
+<script src="email.js"></script>
+  </body>
+</html>

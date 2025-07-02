@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap');
+.FirstPart {
+  height: 751px;
+  width: 100%;
+  border: 1px solid rgb(255, 255, 255)
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.Menu {
+  height: 100px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px Solid white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.Link {
+  font-family: "Raleway", sans-serif;
+  display: inline;
+  margin-left: 50px;
+}
+
+.Story {
+  height:800px;
+  width: 99%;
+  border: 1px solid rgb(255, 255, 255);
+  padding:10px;
+}
+
+.StoryTitle {
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  margin: auto;
+  margin-top:155px;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top:20px;
+}
+.StorySubtitle {
+  font-size: 40px;
+  font-family: "Raleway", sans-serif;
+  margin: auto;
+  text-align: center;
+  padding: 100px;
+}
+
+.Work{
+  display: inline;
+  margin-left: 50px;
+ width:500px;
+}
+
+.Works{
+  padding-top:15px;
+  height: 600px;
+}
+
+.WorkTitle{
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  margin: auto;
+  margin-top:155px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  margin-top:20px;
+}
+
+.AllPhotos{
+  border: 1px solid rgb(255, 255, 255) ;
+  height: 1000px;
+ background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Photo{
+margin-left: 10px;
+margin-top: 50px;
+border: 1px solid rgb(107, 107, 107) ;
+background-color: rgb(107, 107, 107);
+margin-bottom: 100px;
+}
+.XTitle{
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  margin: auto;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+.MainPhoto{
+  margin-top: 10px;
+  border: 5px solid rgb(122, 122, 122) ;
+  background-color: rgb(107, 107, 107);
+  width: 650px;
+}
+
+.MainPhotoDiv{
+  margin: auto;
+}
+
+.Map{
+  height: 1000px;
+  background-color: black;
+  border: 1px solid rgb(255, 255, 255)
+}
+
+.Ttitle{
+  margin-top: 100px;
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+
+.ImageMap{
+  display: block;
+  margin-top: 100px;
+  margin:auto;
+  border: 5px solid rgb(122, 122, 122) ;
+  width: 913px;
+}
+.ImageM{
+  margin-top: 60px;
+}
+.Sub{
+  width: 250px;
+  height: 100px;
+  background-color:  #0e90cc;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  font-family: "Raleway", sans-serif;
+}
+.Subs{
+  width: 250px;
+  font-size: 40px;
+  margin-top: 60px;
+  margin:auto; 
+}
+
+.dropbtn {
+  background: none;
+  color: rgb(255, 255, 255);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  font-family: "Raleway", sans-serif;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.Models{
+  font-family: "Raleway", sans-serif;
+}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background: none}
+
+
+input[type=text], input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin-bottom: 50px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+.button1 {
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+
+.container1 {
+  padding: 16px;
+}
+
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto;
+  background-color: #141414;
+  padding-top: 50px;
+}
+
+
+.modal-content {
+  background-color: #000000;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 80%; 
+}
+
+
+
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+.SingButton{
+  padding: 14px 50px;
+  text-shadow: rgb(0, 0, 0) 0 0 6px;
+  background-color: #0e90cc;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+}
+
+.SingTitle{
+  background-color: #0e90cc;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+}
+.WorldUp{
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  color: white;
+  margin-top: 10px;
+}
+
+.WorldUp2{
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  color: rgb(212, 22, 22);
+}
+
+.theme-button{
+  padding: 4px 5px;
+  background-color: none;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  font-family: "Raleway", sans-serif;
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 22px;
+}
+
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(0, 0, 0);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 4px;
+  bottom: 4px;
+  background-color: rgb(0, 140, 255);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #ffffff;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #ffffff;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
